@@ -61,7 +61,7 @@ const pointsLayer = new FeatureLayer({
     symbol: {
       type: "simple-marker",
       style: "point",
-      size: 4,
+      size: 6,
       color: [0, 0, 0],
     }
   },
