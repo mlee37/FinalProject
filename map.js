@@ -83,13 +83,14 @@ const pointsLayer = new FeatureLayer({
   },
   featureReduction: {
     type: "cluster",
-    clusterRadius: "100px",
+    clusterRadius: "150px",
     clusterMinSize: "24px",
     clusterMaxSize: "60px",
+    maxScale: 1500000,
     clusterZoomOnClick: false,
     labelingInfo: [{
       deconflictionStrategy: "none",
-      labelExpressionInfo: { expression: "Text($feature.cluster_count, '#,###')" },
+      labelExpressionInfo: { expression: "Text($feature.cluster_count)" },
       symbol: { type: "text", color: "white", font: { weight: "bold", size: "12px" } },
       labelPlacement: "center-center"
     }]
