@@ -86,7 +86,7 @@ const pointsLayer = new FeatureLayer({
     clusterRadius: "150px",
     clusterMinSize: "24px",
     clusterMaxSize: "60px",
-    maxScale: 1500000,
+    maxScale: 5000000,
     clusterZoomOnClick: false,
     labelingInfo: [{
       deconflictionStrategy: "none",
