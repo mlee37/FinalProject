@@ -1,7 +1,7 @@
 var myStuff = [{name:"Bari Bucholz",email:"bari@astoriapark.org", town:"Alpine",lat:43.162079,lon:-111.016808, cohort:"2024",interests:"K-12, outreach, community science"},
 {name:"Micah Most",email:"mmost@uwyo.edu", town:"Buffalo",lat: 44.35133,	lon: -106.704503, cohort:"2025",interests:"wildlife surveys, plant surveys, invasive species management"},
 {name:"Christopher Schafer",email:"schafer78@msn.com", town:"Casper",lat: 42.852509,	lon: -106.282519, cohort:"2021",interests:"wildlife surveys, plant surveys, community science"},
-{name:"Joanne Theobald",email:"otheob@gmail.com", town:"Casper",lat: 42.852242,	lon: -106.316263, cohort:"2022",interests:"community science, outreach, invasive species management"},
+{name:"Joanne Theobald",email:"jotheob@gmail.com", town:"Casper",lat: 42.852242,	lon: -106.316263, cohort:"2022",interests:"community science, outreach, invasive species management"},
 {name:"Carmen Albright",email:"casaluminosa.montessori@gmail.com", town:"Casper",lat: 42.842542,	lon: -106.261884, cohort:"2023",interests:"K-12, outreach"},
 {name:"Laurie Rigg",email:"Laurie@laurierigg.com", town:"Casper",lat: 42.844411,	lon: -106.290773, cohort:"2023",interests:"K-12, outreach"},
 {name:"Colleen Burridge",email:"colleenwyo@gmail.com", town:"Casper",lat:	42.832306,	lon: -106.260791, cohort:"2024",interests:"wildlife surveys, plant surveys"},
