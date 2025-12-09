@@ -88,6 +88,18 @@ const pointsLayer = new FeatureLayer({
     clusterMaxSize: "60px",
     maxScale: 5000000,
     clusterZoomOnClick: false,
+    renderer: {
+      type: "simple",
+      symbol: {
+        type: "simple-marker",
+        style: "circle",
+        color: "#2A54BF",
+        outline: {
+          color: "#2A54BF",
+          width: 0
+        }
+      } 
+    },
     labelingInfo: [{
       deconflictionStrategy: "none",
       labelExpressionInfo: { expression: "Text($feature.cluster_count)" },
