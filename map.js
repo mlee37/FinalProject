@@ -93,9 +93,9 @@ const pointsLayer = new FeatureLayer({
       symbol: {
         type: "simple-marker",
         style: "circle",
-        color: "#2A54BF",
+        color: "#4F81BD",
         outline: {
-          color: "#2A54BF",
+          color: "#4F81BD",
           width: 0
         }
       } 
