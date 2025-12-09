@@ -95,8 +95,8 @@ const pointsLayer = new FeatureLayer({
         style: "circle",
         color: "#4F81BD",
         outline: {
-          color: "#4F81BD",
-          width: 0
+          color: "#000000",
+          width: 0.5
         }
       } 
     },
